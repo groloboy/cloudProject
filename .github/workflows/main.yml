@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 12.x
       - name: Adding License
-        uses: dephraiim/translate-readme@v1
+        uses: groloboy/translate-readme@v1
         with:
           LANG: es
           # ISO Langusge Code.

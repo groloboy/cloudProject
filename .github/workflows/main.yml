@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - master
 
 jobs:
   build:
@@ -16,7 +15,7 @@ jobs:
         with:
           node-version: 12.x
       - name: Adding License
-        uses: groloboy/translate-readme@v1
+        uses: dephraiim/translate-readme@v1
         with:
           LANG: es
           # ISO Langusge Code.

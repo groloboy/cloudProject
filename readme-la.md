@@ -4,7 +4,7 @@
 
 1.  Rancher Quickstart clone usus ad folder`git clone https://github.com/rancher/quickstart`
 
-2.  Go into the folder containing the Vagrantfile by executing `cd quickstart/vagrant`
+2.  In exsequendo Vagrantfile folder qua irent`cd quickstart/vagrant`
 
 3.  Libitum: Edit config.yaml est:
     -   Mutare numero retiacula in memoria prouinciis referentibus, si requiritur. (Node.count, node.cpus, node.memory)

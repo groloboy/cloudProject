@@ -1,4 +1,10 @@
 # Cloud Project Guide
+## Requirements
+
+- [Vagrant](https://www.vagrantup.com)
+- [VirtualBox](https://www.virtualbox.org)
+- 6GB unused RAM
+
 ## [Quick start Vagrant](https://github.com/rancher/quickstart/tree/master/vagrant)
 
 1. Clone Rancher Quickstart to a folder using `git clone https://github.com/rancher/quickstart`

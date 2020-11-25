@@ -19,7 +19,7 @@
 
 5. Once provisioning finishes, go to https://172.22.101.101 in the browser. The default user/password is admin/admin.
 
-![Init page](https://github.com/groloboy/cloudProject/images/main/welcome.png)
+![Init page](https://github.com/groloboy/cloudProject/blob/main/images/welcome.png)
 
 ## Our first cluster
 
@@ -33,15 +33,15 @@
 
 5. Go to Rancher and follow the images
    * Go to clusters
-   ![Init page](https://github.com/groloboy/cloudProject/images/main/go_cluster.png)
+   ![Init page](https://github.com/groloboy/cloudProject/blob/main/images/go_cluster.png)
    * Go to add cluster
-   ![Init page](https://github.com/groloboy/cloudProject/images/main/add_cluster.png)
+   ![Init page](https://github.com/groloboy/cloudProject/blob/main/images/add_cluster.png)
    * Go to import an existing cluster
-   ![Init page](https://github.com/groloboy/cloudProject/images/main/import_cluster.png)
+   ![Init page](https://github.com/groloboy/cloudProject/blob/main/images/import_cluster.png)
    * Add a name for the cluster and click create
-   ![Init page](https://github.com/groloboy/cloudProject/images/main/name_cluster.png)
+   ![Init page](https://github.com/groloboy/cloudProject/blob/main/images/name_cluster.png)
    * Copy the first command on the master virtual machine, if doesn't work copy and execute the second one
-   ![Init page](https://github.com/groloboy/cloudProject/images/main/comand.png)
+   ![Init page](https://github.com/groloboy/cloudProject/blob/main/images/comand.png)
    * Next click Done
 
 6. In the master virtual machine execute `sudo kubectl get nodes` to refresh the cluster in Rancher

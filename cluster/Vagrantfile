@@ -1,0 +1,10 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+    config.vm.define :master do |master|
+        master.vm.box = "bento/ubuntu-20.04"
+        master.vm.network :private_network, ip: "172.22.101.102"
+        master.vm.hostname = "master"
+    end
+end
